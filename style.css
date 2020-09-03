@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    margin: 0;
+}
+body{
+    background: white;
+}
+h1, h2, h3, h4{
+    font-family: 'Anton', sans-serif;
+}
+.warning{
+    background-color: rgb(196, 0, 39);
+    height: 70px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Anton', sans-serif;
+
+}
+h1{
+    text-align: center;
+}
+.score-board{
+    width: 400px;
+    height: 150px;
+    background-color: rgba(198, 149, 226, 0.897);
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+}
+.choices{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.b1{
+    background-color: teal;
+    height: 75px;
+}
+.b1 h2{
+    margin: 10px 0px;
+}
+button{
+    width: 200px;
+    height: 70px;
+    margin: 50px 0px;
+    border: 3px solid black;
+    font-family: 'Anton', sans-serif;
+    cursor: pointer;
+    font-size: 30px;
+}
+#rock{
+    background-color: rgb(83, 83, 83);
+    color: white;
+    transition: .35s;
+}
+#rock:hover{
+    background-color: whitesmoke;
+    color: black;
+    transform: scale(1.2);
+}
+#paper{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: .35s;
+}
+#paper:hover{
+    background-color: rgb(117, 117, 117);
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+#scissors{
+    background-color: rgb(202, 247, 232);
+    color: rgb(255, 255, 255);
+    transition: .35s;
+}
+#scissors:hover{
+    background-color: rgb(14, 255, 235);
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+}
+#outcome{
+    font-size: 50px;
+    color: white;
+}
+.you{
+    width: 100px;
+    margin: 20px 550px;
+    background-color: rgb(36, 204, 126);
+    position: absolute;
+}
+.opponent{
+    width: 150px;
+    margin: 98px 920px;
+    background-color: rgb(243, 159, 243);
+    position: absolute;
+}
